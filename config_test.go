@@ -20,7 +20,7 @@ import (
 
 func TestDefaults(t *testing.T) {
 	if FlashName != "BEEGO_FLASH" {
-		t.Errorf("FlashName was not set to default.")
+		t.Errorf("FlashName was not set to default..")
 	}
 
 	if FlashSeperator != "BEEGOFLASH" {
